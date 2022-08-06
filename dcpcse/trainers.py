@@ -72,7 +72,7 @@ if version.parse(torch.__version__) >= version.parse("1.6"):
 if is_datasets_available():
     import datasets
 
-from transformers.trainer import _model_unwrap
+from transformers.trainer import unwrap_model as _model_unwrap
 from transformers.optimization import Adafactor, AdamW, get_scheduler
 import copy
 # Set path to SentEval
@@ -173,8 +173,8 @@ class CLTrainer(Trainer):
 
         self.log(metrics)
         return metrics
-        
-    def _save_checkpoint(self, model, trial, metrics=None):
+    
+    '''def _save_checkpoint(self, model, trial, metrics=None):
         """
         Compared to original implementation, we change the saving policy to
         only save the best-validation checkpoints.
@@ -587,4 +587,4 @@ class CLTrainer(Trainer):
         # add remaining tr_loss
         self._total_loss_scalar += tr_loss.item()
 
-        return TrainOutput(self.state.global_step, self._total_loss_scalar / self.state.global_step, metrics)
+        return TrainOutput(self.state.global_step, self._total_loss_scalar / self.state.global_step, metrics)'''

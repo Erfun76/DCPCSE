@@ -1,0 +1,5 @@
+/result
+/SentEval/data/downstream/*
+!/SentEval/data/downstream/download.sh
+/data
+/env

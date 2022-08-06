@@ -1,0 +1,363 @@
+{'loss': 1.0818, 'learning_rate': 0.0292388424699409, 'epoch': 0.1}
+{'eval_stsb_spearman': 0.4507878342251682, 'eval_sickr_spearman': 0.5010703446092875, 'eval_avg_sts': 0.47592908941722784, 'epoch': 0.1}
+{'loss': 0.1465, 'learning_rate': 0.028474628082331362, 'epoch': 0.2}
+{'eval_stsb_spearman': 0.47869572715018344, 'eval_sickr_spearman': 0.5076078097949276, 'eval_avg_sts': 0.4931517684725555, 'epoch': 0.2}
+{'loss': 0.1307, 'learning_rate': 0.027710413694721825, 'epoch': 0.31}
+{'eval_stsb_spearman': 0.4874248399358032, 'eval_sickr_spearman': 0.498973690969311, 'eval_avg_sts': 0.4931992654525571, 'epoch': 0.31}
+{'loss': 0.1287, 'learning_rate': 0.026946199307112288, 'epoch': 0.41}
+{'eval_stsb_spearman': 0.5206140443346893, 'eval_sickr_spearman': 0.5030135869112706, 'eval_avg_sts': 0.5118138156229799, 'epoch': 0.41}
+{'loss': 0.1267, 'learning_rate': 0.02618198491950275, 'epoch': 0.51}
+{'eval_stsb_spearman': 0.5388788736654215, 'eval_sickr_spearman': 0.5086602672896394, 'eval_avg_sts': 0.5237695704775305, 'epoch': 0.51}
+{'loss': 0.1232, 'learning_rate': 0.025417770531893213, 'epoch': 0.61}
+{'eval_stsb_spearman': 0.5216604970141528, 'eval_sickr_spearman': 0.5057713406314414, 'eval_avg_sts': 0.5137159188227971, 'epoch': 0.61}
+{'loss': 0.1175, 'learning_rate': 0.024653556144283675, 'epoch': 0.71}
+{'eval_stsb_spearman': 0.5408188310009487, 'eval_sickr_spearman': 0.5140828345486981, 'eval_avg_sts': 0.5274508327748234, 'epoch': 0.71}
+{'loss': 0.1148, 'learning_rate': 0.02388934175667414, 'epoch': 0.82}
+{'eval_stsb_spearman': 0.5237214361588488, 'eval_sickr_spearman': 0.5176108630426318, 'eval_avg_sts': 0.5206661496007403, 'epoch': 0.82}
+{'loss': 0.1142, 'learning_rate': 0.0231251273690646, 'epoch': 0.92}
+{'eval_stsb_spearman': 0.5167009771469102, 'eval_sickr_spearman': 0.49865567704668934, 'eval_avg_sts': 0.5076783270967997, 'epoch': 0.92}
+{'loss': 0.1113, 'learning_rate': 0.022360912981455063, 'epoch': 1.02}
+{'eval_stsb_spearman': 0.5503977855293364, 'eval_sickr_spearman': 0.5131611657432021, 'eval_avg_sts': 0.5317794756362693, 'epoch': 1.02}
+{'loss': 0.1085, 'learning_rate': 0.021596698593845526, 'epoch': 1.12}
+{'eval_stsb_spearman': 0.5409177198593166, 'eval_sickr_spearman': 0.5056202828174184, 'eval_avg_sts': 0.5232690013383675, 'epoch': 1.12}
+{'loss': 0.108, 'learning_rate': 0.02083248420623599, 'epoch': 1.22}
+{'eval_stsb_spearman': 0.5354377200450932, 'eval_sickr_spearman': 0.5105700319139204, 'eval_avg_sts': 0.5230038759795068, 'epoch': 1.22}
+{'loss': 0.1019, 'learning_rate': 0.02006826981862645, 'epoch': 1.32}
+{'eval_stsb_spearman': 0.5460458435096093, 'eval_sickr_spearman': 0.5080139607886882, 'eval_avg_sts': 0.5270299021491487, 'epoch': 1.32}
+{'loss': 0.1028, 'learning_rate': 0.019304055431016914, 'epoch': 1.43}
+{'eval_stsb_spearman': 0.5387561249492854, 'eval_sickr_spearman': 0.4984448685424774, 'eval_avg_sts': 0.5186004967458814, 'epoch': 1.43}
+{'loss': 0.0984, 'learning_rate': 0.018539841043407376, 'epoch': 1.53}
+{'eval_stsb_spearman': 0.5298798674551113, 'eval_sickr_spearman': 0.49722535887696373, 'eval_avg_sts': 0.5135526131660375, 'epoch': 1.53}
+{'loss': 0.0964, 'learning_rate': 0.01777562665579784, 'epoch': 1.63}
+{'eval_stsb_spearman': 0.5306106869364495, 'eval_sickr_spearman': 0.50135632178725, 'eval_avg_sts': 0.5159835043618497, 'epoch': 1.63}
+{'loss': 0.0935, 'learning_rate': 0.0170114122681883, 'epoch': 1.73}
+{'eval_stsb_spearman': 0.5214046658767468, 'eval_sickr_spearman': 0.4932471348692506, 'eval_avg_sts': 0.5073259003729987, 'epoch': 1.73}
+{'loss': 0.0936, 'learning_rate': 0.016247197880578764, 'epoch': 1.83}
+{'eval_stsb_spearman': 0.5401465773872526, 'eval_sickr_spearman': 0.5032812642395853, 'eval_avg_sts': 0.5217139208134189, 'epoch': 1.83}
+{'loss': 0.0928, 'learning_rate': 0.015482983492969227, 'epoch': 1.94}
+{'eval_stsb_spearman': 0.5348584488296279, 'eval_sickr_spearman': 0.5057418495351583, 'eval_avg_sts': 0.5203001491823931, 'epoch': 1.94}
+{'loss': 0.0892, 'learning_rate': 0.01471876910535969, 'epoch': 2.04}
+{'eval_stsb_spearman': 0.5228790139091819, 'eval_sickr_spearman': 0.4987023632772871, 'eval_avg_sts': 0.5107906885932345, 'epoch': 2.04}
+{'loss': 0.0845, 'learning_rate': 0.013954554717750152, 'epoch': 2.14}
+{'eval_stsb_spearman': 0.520481885880496, 'eval_sickr_spearman': 0.49980789513908813, 'eval_avg_sts': 0.5101448905097921, 'epoch': 2.14}
+{'loss': 0.0829, 'learning_rate': 0.013190340330140615, 'epoch': 2.24}
+{'eval_stsb_spearman': 0.5191600664962275, 'eval_sickr_spearman': 0.49527922258009255, 'eval_avg_sts': 0.50721964453816, 'epoch': 2.24}
+{'loss': 0.081, 'learning_rate': 0.012426125942531077, 'epoch': 2.34}
+{'eval_stsb_spearman': 0.5339917030329464, 'eval_sickr_spearman': 0.5092651229500497, 'eval_avg_sts': 0.5216284129914981, 'epoch': 2.34}
+{'loss': 0.0792, 'learning_rate': 0.01166191155492154, 'epoch': 2.45}
+{'eval_stsb_spearman': 0.5316548237789441, 'eval_sickr_spearman': 0.5043746442327224, 'eval_avg_sts': 0.5180147340058332, 'epoch': 2.45}
+{'loss': 0.0792, 'learning_rate': 0.010899225596087223, 'epoch': 2.55}
+{'eval_stsb_spearman': 0.5376991290790252, 'eval_sickr_spearman': 0.5079098773918719, 'eval_avg_sts': 0.5228045032354485, 'epoch': 2.55}
+{'loss': 0.079, 'learning_rate': 0.010135011208477686, 'epoch': 2.65}
+{'eval_stsb_spearman': 0.5323778171610944, 'eval_sickr_spearman': 0.5098334749733668, 'eval_avg_sts': 0.5211056460672306, 'epoch': 2.65}
+{'loss': 0.0758, 'learning_rate': 0.009370796820868148, 'epoch': 2.75}
+{'eval_stsb_spearman': 0.5349933830253888, 'eval_sickr_spearman': 0.5116540938733786, 'eval_avg_sts': 0.5233237384493836, 'epoch': 2.75}
+{'loss': 0.0755, 'learning_rate': 0.00860658243325861, 'epoch': 2.85}
+{'eval_stsb_spearman': 0.5303508931626262, 'eval_sickr_spearman': 0.5043236832340966, 'eval_avg_sts': 0.5173372881983613, 'epoch': 2.85}
+{'loss': 0.0734, 'learning_rate': 0.007843896474424291, 'epoch': 2.95}
+{'eval_stsb_spearman': 0.5231299193117264, 'eval_sickr_spearman': 0.5036865506735201, 'eval_avg_sts': 0.5134082349926232, 'epoch': 2.95}
+{'loss': 0.0717, 'learning_rate': 0.007079682086814754, 'epoch': 3.06}
+{'eval_stsb_spearman': 0.521370464359289, 'eval_sickr_spearman': 0.5057287850755672, 'eval_avg_sts': 0.513549624717428, 'epoch': 3.06}
+{'loss': 0.0712, 'learning_rate': 0.006315467699205216, 'epoch': 3.16}
+{'eval_stsb_spearman': 0.5262361567554943, 'eval_sickr_spearman': 0.5071229358259098, 'eval_avg_sts': 0.5166795462907021, 'epoch': 3.16}
+{'loss': 0.0688, 'learning_rate': 0.00555125331159568, 'epoch': 3.26}
+{'eval_stsb_spearman': 0.5238639367228467, 'eval_sickr_spearman': 0.5100088845558188, 'eval_avg_sts': 0.5169364106393328, 'epoch': 3.26}
+{'loss': 0.0697, 'learning_rate': 0.004787038923986142, 'epoch': 3.36}
+{'eval_stsb_spearman': 0.5391834366324578, 'eval_sickr_spearman': 0.5154448044610771, 'eval_avg_sts': 0.5273141205467675, 'epoch': 3.36}
+{'loss': 0.0685, 'learning_rate': 0.004022824536376605, 'epoch': 3.46}
+{'eval_stsb_spearman': 0.5396197140343346, 'eval_sickr_spearman': 0.513893928226742, 'eval_avg_sts': 0.5267568211305382, 'epoch': 3.46}
+{'loss': 0.0671, 'learning_rate': 0.003258610148767067, 'epoch': 3.57}
+{'eval_stsb_spearman': 0.5320871696901379, 'eval_sickr_spearman': 0.5122173065688418, 'eval_avg_sts': 0.5221522381294899, 'epoch': 3.57}
+{'loss': 0.0672, 'learning_rate': 0.002495924189932749, 'epoch': 3.67}
+{'eval_stsb_spearman': 0.5434700067270499, 'eval_sickr_spearman': 0.5162969722627923, 'eval_avg_sts': 0.5298834894949211, 'epoch': 3.67}
+{'loss': 0.0669, 'learning_rate': 0.0017317098023232117, 'epoch': 3.77}
+{'eval_stsb_spearman': 0.5392323098523921, 'eval_sickr_spearman': 0.5154197322261266, 'eval_avg_sts': 0.5273260210392594, 'epoch': 3.77}
+{'loss': 0.066, 'learning_rate': 0.0009674954147136744, 'epoch': 3.87}
+{'eval_stsb_spearman': 0.5383253796458933, 'eval_sickr_spearman': 0.5146505141365951, 'eval_avg_sts': 0.5264879468912442, 'epoch': 3.87}
+{'loss': 0.066, 'learning_rate': 0.00020328102710413695, 'epoch': 3.97}
+{'eval_stsb_spearman': 0.5358950722605553, 'eval_sickr_spearman': 0.5143507040014185, 'eval_avg_sts': 0.5251228881309868, 'epoch': 3.97}
+{'train_runtime': 3525.7958, 'train_samples_per_second': 1424.905, 'train_steps_per_second': 5.567, 'train_loss': 0.11695027730361444, 'epoch': 4.0}
+  0%|                                                 | 0/19628 [00:00<?, ?it/s][INFO|trainer.py:1820] 2022-08-06 07:03:47,688 >> Didn't find an RNG file, if you are resuming a training that was launched in a distributed fashion, reproducibility is not guaranteed.
+[WARNING|modeling_big_bird.py:2070] 2022-08-06 07:03:47,794 >> Attention type 'block_sparse' is not possible if sequence_length: 32 <= num global tokens: 2 * config.block_size + min. num sliding tokens: 3 * config.block_size + config.num_random_blocks * config.block_size + additional buffer: config.num_random_blocks * config.block_size = 704 with config.block_size = 64, config.num_random_blocks = 3. Changing attention type to 'original_full'...
+  3%|▉                                      | 500/19628 [01:32<52:12,  6.11it/s][INFO|trainer.py:2340] 2022-08-06 07:05:20,482 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-500
+[INFO|configuration_utils.py:446] 2022-08-06 07:05:20,484 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:05:20,710 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:05:20,711 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:05:20,712 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-500/special_tokens_map.json
+  5%|█▉                                    | 1000/19628 [03:04<49:07,  6.32it/s][INFO|trainer.py:2340] 2022-08-06 07:06:52,512 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-1000
+[INFO|configuration_utils.py:446] 2022-08-06 07:06:52,513 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-1000/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:06:52,726 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-1000/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:06:52,727 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-1000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:06:52,727 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-1000/special_tokens_map.json
+  8%|██▉                                   | 1500/19628 [04:36<47:57,  6.30it/s][INFO|trainer.py:2340] 2022-08-06 07:08:24,562 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-1500
+[INFO|configuration_utils.py:446] 2022-08-06 07:08:24,563 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-1500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:08:24,792 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-1500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:08:24,793 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-1500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:08:24,793 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-1500/special_tokens_map.json
+ 10%|███▊                                  | 2000/19628 [06:08<46:56,  6.26it/s][INFO|trainer.py:2340] 2022-08-06 07:09:56,290 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-2000
+[INFO|configuration_utils.py:446] 2022-08-06 07:09:56,292 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-2000/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:09:56,528 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-2000/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:09:56,529 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-2000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:09:56,529 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-2000/special_tokens_map.json
+ 13%|████▊                                 | 2500/19628 [07:40<45:28,  6.28it/s][INFO|trainer.py:2340] 2022-08-06 07:11:28,100 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-2500
+[INFO|configuration_utils.py:446] 2022-08-06 07:11:28,102 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-2500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:11:28,345 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-2500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:11:28,346 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-2500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:11:28,346 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-2500/special_tokens_map.json
+ 15%|█████▊                                | 3000/19628 [09:11<45:29,  6.09it/s][INFO|trainer.py:2340] 2022-08-06 07:12:59,616 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-3000
+[INFO|configuration_utils.py:446] 2022-08-06 07:12:59,618 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-3000/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:12:59,826 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-3000/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:12:59,827 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-3000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:12:59,827 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-3000/special_tokens_map.json
+ 18%|██████▊                               | 3500/19628 [10:39<40:55,  6.57it/s][INFO|trainer.py:2340] 2022-08-06 07:14:26,888 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-3500
+[INFO|configuration_utils.py:446] 2022-08-06 07:14:26,890 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-3500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:14:27,104 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-3500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:14:27,105 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-3500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:14:27,105 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-3500/special_tokens_map.json
+ 20%|███████▋                              | 4000/19628 [12:05<39:33,  6.59it/s][INFO|trainer.py:2340] 2022-08-06 07:15:53,680 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-4000
+[INFO|configuration_utils.py:446] 2022-08-06 07:15:53,681 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-4000/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:15:53,904 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-4000/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:15:53,906 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-4000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:15:53,906 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-4000/special_tokens_map.json
+ 23%|████████▋                             | 4500/19628 [13:32<38:26,  6.56it/s][INFO|trainer.py:2340] 2022-08-06 07:17:20,695 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-4500
+[INFO|configuration_utils.py:446] 2022-08-06 07:17:20,696 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-4500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:17:20,898 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-4500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:17:20,899 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-4500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:17:20,899 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-4500/special_tokens_map.json
+ 25%|█████████▋                            | 5000/19628 [15:00<36:57,  6.60it/s][INFO|trainer.py:2340] 2022-08-06 07:18:47,913 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-5000
+[INFO|configuration_utils.py:446] 2022-08-06 07:18:47,914 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-5000/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:18:48,122 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-5000/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:18:48,123 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-5000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:18:48,123 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-5000/special_tokens_map.json
+ 28%|██████████▋                           | 5500/19628 [16:27<35:49,  6.57it/s][INFO|trainer.py:2340] 2022-08-06 07:20:15,493 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-5500
+[INFO|configuration_utils.py:446] 2022-08-06 07:20:15,494 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-5500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:20:15,723 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-5500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:20:15,724 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-5500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:20:15,724 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-5500/special_tokens_map.json
+ 31%|███████████▌                          | 6000/19628 [17:55<34:33,  6.57it/s][INFO|trainer.py:2340] 2022-08-06 07:21:43,067 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-6000
+[INFO|configuration_utils.py:446] 2022-08-06 07:21:43,068 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-6000/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:21:43,320 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-6000/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:21:43,321 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-6000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:21:43,321 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-6000/special_tokens_map.json
+ 33%|████████████▌                         | 6500/19628 [19:23<33:06,  6.61it/s][INFO|trainer.py:2340] 2022-08-06 07:23:10,812 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-6500
+[INFO|configuration_utils.py:446] 2022-08-06 07:23:10,813 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-6500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:23:11,041 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-6500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:23:11,042 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-6500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:23:11,042 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-6500/special_tokens_map.json
+ 36%|█████████████▌                        | 7000/19628 [20:50<31:58,  6.58it/s][INFO|trainer.py:2340] 2022-08-06 07:24:38,372 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-7000
+[INFO|configuration_utils.py:446] 2022-08-06 07:24:38,373 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-7000/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:24:38,619 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-7000/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:24:38,620 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-7000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:24:38,620 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-7000/special_tokens_map.json
+ 38%|██████████████▌                       | 7500/19628 [22:17<30:50,  6.55it/s][INFO|trainer.py:2340] 2022-08-06 07:26:05,601 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-7500
+[INFO|configuration_utils.py:446] 2022-08-06 07:26:05,602 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-7500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:26:05,868 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-7500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:26:05,869 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-7500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:26:05,869 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-7500/special_tokens_map.json
+ 41%|███████████████▍                      | 8000/19628 [23:44<29:28,  6.58it/s][INFO|trainer.py:2340] 2022-08-06 07:27:32,588 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-8000
+[INFO|configuration_utils.py:446] 2022-08-06 07:27:32,589 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-8000/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:27:32,827 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-8000/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:27:32,828 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-8000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:27:32,829 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-8000/special_tokens_map.json
+ 43%|████████████████▍                     | 8500/19628 [25:12<28:07,  6.60it/s][INFO|trainer.py:2340] 2022-08-06 07:28:59,706 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-8500
+[INFO|configuration_utils.py:446] 2022-08-06 07:28:59,708 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-8500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:28:59,959 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-8500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:28:59,960 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-8500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:28:59,960 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-8500/special_tokens_map.json
+ 46%|█████████████████▍                    | 9000/19628 [26:39<26:59,  6.56it/s][INFO|trainer.py:2340] 2022-08-06 07:30:26,849 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-9000
+[INFO|configuration_utils.py:446] 2022-08-06 07:30:26,850 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-9000/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:30:27,099 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-9000/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:30:27,100 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-9000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:30:27,101 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-9000/special_tokens_map.json
+ 48%|██████████████████▍                   | 9500/19628 [28:06<25:31,  6.62it/s][INFO|trainer.py:2340] 2022-08-06 07:31:53,933 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-9500
+[INFO|configuration_utils.py:446] 2022-08-06 07:31:53,935 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-9500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:31:54,180 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-9500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:31:54,181 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-9500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:31:54,181 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-9500/special_tokens_map.json
+ 51%|██████████████████▊                  | 10000/19628 [29:33<24:26,  6.56it/s][INFO|trainer.py:2340] 2022-08-06 07:33:21,618 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-10000
+[INFO|configuration_utils.py:446] 2022-08-06 07:33:21,620 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-10000/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:33:21,846 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-10000/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:33:21,847 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-10000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:33:21,847 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-10000/special_tokens_map.json
+ 53%|███████████████████▊                 | 10500/19628 [31:01<23:02,  6.60it/s][INFO|trainer.py:2340] 2022-08-06 07:34:49,026 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-10500
+[INFO|configuration_utils.py:446] 2022-08-06 07:34:49,027 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-10500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:34:49,239 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-10500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:34:49,240 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-10500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:34:49,241 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-10500/special_tokens_map.json
+ 56%|████████████████████▋                | 11000/19628 [32:28<21:58,  6.54it/s][INFO|trainer.py:2340] 2022-08-06 07:36:16,204 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-11000
+[INFO|configuration_utils.py:446] 2022-08-06 07:36:16,205 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-11000/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:36:16,422 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-11000/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:36:16,423 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-11000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:36:16,424 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-11000/special_tokens_map.json
+ 59%|█████████████████████▋               | 11500/19628 [33:55<20:54,  6.48it/s][INFO|trainer.py:2340] 2022-08-06 07:37:43,605 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-11500
+[INFO|configuration_utils.py:446] 2022-08-06 07:37:43,606 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-11500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:37:43,808 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-11500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:37:43,809 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-11500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:37:43,809 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-11500/special_tokens_map.json
+ 61%|██████████████████████▌              | 12000/19628 [35:23<19:13,  6.61it/s][INFO|trainer.py:2340] 2022-08-06 07:39:10,854 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-12000
+[INFO|configuration_utils.py:446] 2022-08-06 07:39:10,856 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-12000/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:39:11,074 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-12000/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:39:11,075 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-12000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:39:11,075 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-12000/special_tokens_map.json
+ 64%|███████████████████████▌             | 12500/19628 [36:50<18:01,  6.59it/s][INFO|trainer.py:2340] 2022-08-06 07:40:37,730 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-12500
+[INFO|configuration_utils.py:446] 2022-08-06 07:40:37,732 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-12500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:40:37,947 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-12500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:40:37,948 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-12500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:40:37,948 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-12500/special_tokens_map.json
+ 66%|████████████████████████▌            | 13000/19628 [38:17<16:42,  6.61it/s][INFO|trainer.py:2340] 2022-08-06 07:42:05,018 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-13000
+[INFO|configuration_utils.py:446] 2022-08-06 07:42:05,019 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-13000/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:42:05,238 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-13000/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:42:05,239 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-13000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:42:05,239 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-13000/special_tokens_map.json
+ 69%|█████████████████████████▍           | 13500/19628 [39:44<15:20,  6.66it/s][INFO|trainer.py:2340] 2022-08-06 07:43:31,804 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-13500
+[INFO|configuration_utils.py:446] 2022-08-06 07:43:31,805 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-13500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:43:32,010 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-13500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:43:32,011 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-13500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:43:32,011 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-13500/special_tokens_map.json
+ 71%|██████████████████████████▍          | 14000/19628 [41:11<14:13,  6.59it/s][INFO|trainer.py:2340] 2022-08-06 07:44:58,802 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-14000
+[INFO|configuration_utils.py:446] 2022-08-06 07:44:58,803 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-14000/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:44:59,002 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-14000/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:44:59,003 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-14000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:44:59,003 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-14000/special_tokens_map.json
+ 74%|███████████████████████████▎         | 14500/19628 [42:38<13:12,  6.47it/s][INFO|trainer.py:2340] 2022-08-06 07:46:26,040 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-14500
+[INFO|configuration_utils.py:446] 2022-08-06 07:46:26,042 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-14500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:46:26,238 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-14500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:46:26,240 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-14500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:46:26,240 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-14500/special_tokens_map.json
+ 76%|████████████████████████████▎        | 15000/19628 [44:05<11:39,  6.61it/s][INFO|trainer.py:2340] 2022-08-06 07:47:53,186 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-15000
+[INFO|configuration_utils.py:446] 2022-08-06 07:47:53,187 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-15000/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:47:53,389 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-15000/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:47:53,390 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-15000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:47:53,390 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-15000/special_tokens_map.json
+ 79%|█████████████████████████████▏       | 15500/19628 [45:32<10:22,  6.63it/s][INFO|trainer.py:2340] 2022-08-06 07:49:19,993 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-15500
+[INFO|configuration_utils.py:446] 2022-08-06 07:49:19,994 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-15500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:49:20,190 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-15500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:49:20,191 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-15500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:49:20,191 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-15500/special_tokens_map.json
+ 82%|██████████████████████████████▏      | 16000/19628 [46:59<09:07,  6.63it/s][INFO|trainer.py:2340] 2022-08-06 07:50:46,937 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-16000
+[INFO|configuration_utils.py:446] 2022-08-06 07:50:46,939 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-16000/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:50:47,136 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-16000/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:50:47,137 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-16000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:50:47,137 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-16000/special_tokens_map.json
+ 84%|███████████████████████████████      | 16500/19628 [48:25<07:53,  6.60it/s][INFO|trainer.py:2340] 2022-08-06 07:52:13,663 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-16500
+[INFO|configuration_utils.py:446] 2022-08-06 07:52:13,664 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-16500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:52:13,868 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-16500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:52:13,869 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-16500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:52:13,869 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-16500/special_tokens_map.json
+ 87%|████████████████████████████████     | 17000/19628 [49:52<06:41,  6.54it/s][INFO|trainer.py:2340] 2022-08-06 07:53:40,362 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-17000
+[INFO|configuration_utils.py:446] 2022-08-06 07:53:40,364 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-17000/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:53:40,564 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-17000/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:53:40,565 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-17000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:53:40,566 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-17000/special_tokens_map.json
+ 89%|████████████████████████████████▉    | 17500/19628 [51:19<05:22,  6.60it/s][INFO|trainer.py:2340] 2022-08-06 07:55:07,487 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-17500
+[INFO|configuration_utils.py:446] 2022-08-06 07:55:07,488 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-17500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:55:07,692 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-17500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:55:07,693 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-17500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:55:07,693 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-17500/special_tokens_map.json
+ 92%|█████████████████████████████████▉   | 18000/19628 [52:46<04:10,  6.50it/s][INFO|trainer.py:2340] 2022-08-06 07:56:34,105 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-18000
+[INFO|configuration_utils.py:446] 2022-08-06 07:56:34,106 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-18000/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:56:34,303 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-18000/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:56:34,304 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-18000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:56:34,304 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-18000/special_tokens_map.json
+ 94%|██████████████████████████████████▊  | 18500/19628 [54:13<02:51,  6.58it/s][INFO|trainer.py:2340] 2022-08-06 07:58:01,076 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-18500
+[INFO|configuration_utils.py:446] 2022-08-06 07:58:01,077 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-18500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:58:01,277 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-18500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:58:01,278 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-18500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:58:01,278 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-18500/special_tokens_map.json
+ 97%|███████████████████████████████████▊ | 19000/19628 [55:40<01:35,  6.61it/s][INFO|trainer.py:2340] 2022-08-06 07:59:28,114 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-19000
+[INFO|configuration_utils.py:446] 2022-08-06 07:59:28,116 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-19000/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 07:59:28,346 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-19000/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 07:59:28,347 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-19000/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 07:59:28,347 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-19000/special_tokens_map.json
+ 99%|████████████████████████████████████▊| 19500/19628 [57:07<00:19,  6.63it/s][INFO|trainer.py:2340] 2022-08-06 08:00:55,035 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-19500
+[INFO|configuration_utils.py:446] 2022-08-06 08:00:55,036 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-19500/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 08:00:55,270 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-19500/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 08:00:55,271 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-19500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 08:00:55,271 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-19500/special_tokens_map.json
+100%|█████████████████████████████████████| 19628/19628 [57:27<00:00,  7.21it/s][INFO|trainer.py:1662] 2022-08-06 08:01:14,749 >>
+Training completed. Do not forget to share your model on huggingface.co/models =)
+[INFO|trainer.py:1727] 2022-08-06 08:01:14,749 >> Loading best model from result/my-unsup-dcpcse-zibert-base-uncased/checkpoint-5000 (score: 0.5503977855293364).
+100%|█████████████████████████████████████| 19628/19628 [57:27<00:00,  5.69it/s]
+[INFO|trainer.py:2340] 2022-08-06 08:01:14,842 >> Saving model checkpoint to result/my-unsup-dcpcse-zibert-base-uncased
+[INFO|configuration_utils.py:446] 2022-08-06 08:01:14,843 >> Configuration saved in result/my-unsup-dcpcse-zibert-base-uncased/config.json
+[INFO|modeling_utils.py:1542] 2022-08-06 08:01:15,041 >> Model weights saved in result/my-unsup-dcpcse-zibert-base-uncased/pytorch_model.bin
+[INFO|tokenization_utils_base.py:2108] 2022-08-06 08:01:15,042 >> tokenizer config file saved in result/my-unsup-dcpcse-zibert-base-uncased/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2114] 2022-08-06 08:01:15,043 >> Special tokens file saved in result/my-unsup-dcpcse-zibert-base-uncased/special_tokens_map.json
+08/06/2022 08:01:15 - INFO - __main__ -   ***** Train results *****
+08/06/2022 08:01:15 - INFO - __main__ -     epoch = 4.0
+08/06/2022 08:01:15 - INFO - __main__ -     train_loss = 0.11695027730361444
+08/06/2022 08:01:15 - INFO - __main__ -     train_runtime = 3525.7958
+08/06/2022 08:01:15 - INFO - __main__ -     train_samples_per_second = 1424.905
+08/06/2022 08:01:15 - INFO - __main__ -     train_steps_per_second = 5.567
+08/06/2022 08:01:15 - INFO - __main__ -   *** Evaluate ***
+08/06/2022 08:01:25 - INFO - root -   Generating sentence embeddings
+08/06/2022 08:01:29 - INFO - root -   Generated sentence embeddings
+08/06/2022 08:01:29 - INFO - root -   Training pytorch-MLP-nhid0-rmsprop-bs128 with (inner) 5-fold cross-validation
+08/06/2022 08:01:40 - INFO - root -   Best param found at split 1: l2reg = 0.0001                 with score 55.06
+08/06/2022 08:01:51 - INFO - root -   Best param found at split 2: l2reg = 1e-05                 with score 54.24
+08/06/2022 08:02:02 - INFO - root -   Best param found at split 3: l2reg = 1e-05                 with score 53.13
+08/06/2022 08:02:11 - INFO - root -   Best param found at split 4: l2reg = 1e-05                 with score 53.21
+08/06/2022 08:02:24 - INFO - root -   Best param found at split 5: l2reg = 0.0001                 with score 53.61
+08/06/2022 08:02:24 - INFO - root -   Generating sentence embeddings
+08/06/2022 08:02:25 - INFO - root -   Generated sentence embeddings
+08/06/2022 08:02:25 - INFO - root -   Training pytorch-MLP-nhid0-rmsprop-bs128 with (inner) 5-fold cross-validation
+08/06/2022 08:02:28 - INFO - root -   Best param found at split 1: l2reg = 0.0001                 with score 65.83
+08/06/2022 08:02:31 - INFO - root -   Best param found at split 2: l2reg = 0.001                 with score 66.19
+08/06/2022 08:02:35 - INFO - root -   Best param found at split 3: l2reg = 1e-05                 with score 65.96
+08/06/2022 08:02:38 - INFO - root -   Best param found at split 4: l2reg = 0.0001                 with score 65.93
+08/06/2022 08:02:42 - INFO - root -   Best param found at split 5: l2reg = 1e-05                 with score 64.8
+08/06/2022 08:02:42 - INFO - root -   Generating sentence embeddings
+08/06/2022 08:02:45 - INFO - root -   Generated sentence embeddings
+08/06/2022 08:02:45 - INFO - root -   Training pytorch-MLP-nhid0-rmsprop-bs128 with (inner) 5-fold cross-validation
+08/06/2022 08:02:56 - INFO - root -   Best param found at split 1: l2reg = 0.0001                 with score 70.11
+08/06/2022 08:03:06 - INFO - root -   Best param found at split 2: l2reg = 1e-05                 with score 71.3
+08/06/2022 08:03:16 - INFO - root -   Best param found at split 3: l2reg = 1e-05                 with score 67.91
+08/06/2022 08:03:27 - INFO - root -   Best param found at split 4: l2reg = 0.001                 with score 69.8
+08/06/2022 08:03:37 - INFO - root -   Best param found at split 5: l2reg = 1e-05                 with score 70.1
+08/06/2022 08:03:37 - INFO - root -   Generating sentence embeddings
+08/06/2022 08:03:39 - INFO - root -   Generated sentence embeddings
+08/06/2022 08:03:39 - INFO - root -   Training pytorch-MLP-nhid0-rmsprop-bs128 with (inner) 5-fold cross-validation
+08/06/2022 08:03:48 - INFO - root -   Best param found at split 1: l2reg = 0.0001                 with score 72.34
+08/06/2022 08:03:59 - INFO - root -   Best param found at split 2: l2reg = 1e-05                 with score 71.41
+08/06/2022 08:04:09 - INFO - root -   Best param found at split 3: l2reg = 1e-05                 with score 72.49
+08/06/2022 08:04:19 - INFO - root -   Best param found at split 4: l2reg = 0.0001                 with score 73.02
+08/06/2022 08:04:29 - INFO - root -   Best param found at split 5: l2reg = 0.0001                 with score 72.06
+08/06/2022 08:04:30 - INFO - root -   Computing embedding for train
+08/06/2022 08:04:43 - INFO - root -   Computed train embeddings
+08/06/2022 08:04:43 - INFO - root -   Computing embedding for dev
+08/06/2022 08:04:44 - INFO - root -   Computed dev embeddings
+08/06/2022 08:04:44 - INFO - root -   Computing embedding for test
+08/06/2022 08:04:44 - INFO - root -   Computed test embeddings
+08/06/2022 08:04:44 - INFO - root -   Training pytorch-MLP-nhid0-rmsprop-bs128 with standard validation..
+08/06/2022 08:05:04 - INFO - root -   [('reg:1e-05', 61.47), ('reg:0.0001', 61.35), ('reg:0.001', 61.7), ('reg:0.01', 60.67)]
+08/06/2022 08:05:04 - INFO - root -   Validation : best param found is reg = 0.001 with score             61.7
+08/06/2022 08:05:04 - INFO - root -   Evaluating...
+08/06/2022 08:05:10 - INFO - root -   ***** Transfer task : TREC *****
+08/06/2022 08:05:11 - INFO - root -   Computed train embeddings
+08/06/2022 08:05:11 - INFO - root -   Computed test embeddings
+08/06/2022 08:05:11 - INFO - root -   Training pytorch-MLP-nhid0-rmsprop-bs128 with 5-fold cross-validation
+08/06/2022 08:05:17 - INFO - root -   [('reg:1e-05', 48.33), ('reg:0.0001', 46.44), ('reg:0.001', 47.85), ('reg:0.01', 44.9)]
+08/06/2022 08:05:17 - INFO - root -   Cross-validation : best param found is reg = 1e-05             with score 48.33
+08/06/2022 08:05:17 - INFO - root -   Evaluating...
+08/06/2022 08:05:18 - INFO - root -   ***** Transfer task : MRPC *****
+08/06/2022 08:05:18 - INFO - root -   Computing embedding for train
+08/06/2022 08:05:21 - INFO - root -   Computed train embeddings
+08/06/2022 08:05:21 - INFO - root -   Computing embedding for test
+08/06/2022 08:05:22 - INFO - root -   Computed test embeddings
+08/06/2022 08:05:22 - INFO - root -   Training pytorch-MLP-nhid0-rmsprop-bs128 with 5-fold cross-validation
+08/06/2022 08:05:26 - INFO - root -   [('reg:1e-05', 69.7), ('reg:0.0001', 69.97), ('reg:0.001', 70.31), ('reg:0.01', 69.41)]
+08/06/2022 08:05:26 - INFO - root -   Cross-validation : best param found is reg = 0.001             with score 70.31
+08/06/2022 08:05:26 - INFO - root -   Evaluating...
+08/06/2022 08:05:26 - INFO - __main__ -   ***** Eval results *****
+08/06/2022 08:05:26 - INFO - __main__ -     epoch = 4.0
+08/06/2022 08:05:26 - INFO - __main__ -     eval_CR = 65.74
+08/06/2022 08:05:26 - INFO - __main__ -     eval_MPQA = 72.26
+08/06/2022 08:05:26 - INFO - __main__ -     eval_MR = 53.85
+08/06/2022 08:05:26 - INFO - __main__ -     eval_MRPC = 70.31
+08/06/2022 08:05:26 - INFO - __main__ -     eval_SST2 = 61.7
+08/06/2022 08:05:26 - INFO - __main__ -     eval_SUBJ = 69.84
+08/06/2022 08:05:26 - INFO - __main__ -     eval_TREC = 48.33
+08/06/2022 08:05:26 - INFO - __main__ -     eval_avg_sts = 0.5317794756362693
+08/06/2022 08:05:26 - INFO - __main__ -     eval_avg_transfer = 63.14714285714285
+08/06/2022 08:05:26 - INFO - __main__ -     eval_sickr_spearman = 0.5131611657432021
+08/06/2022 08:05:26 - INFO - __main__ -     eval_stsb_spearman = 0.5503977855293364

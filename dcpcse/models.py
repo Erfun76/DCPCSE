@@ -7,6 +7,7 @@ import transformers
 from transformers import RobertaTokenizer
 from transformers.models.roberta.modeling_roberta import RobertaPreTrainedModel, RobertaModel, RobertaLMHead
 from transformers.models.bert.modeling_bert import BertPreTrainedModel, BertModel, BertLMPredictionHead
+from transformers.models.big_bird.modeling_big_bird import BigBirdModel, BigBirdPreTrainedModel, BigBirdLMPredictionHead
 from transformers.activations import gelu
 from transformers.file_utils import (
     add_code_sample_docstrings,
@@ -495,6 +496,101 @@ class RobertaForCL(RobertaPreTrainedModel):
             )
         else:
             return cl_forward(self, self.roberta,
+                input_ids=input_ids,
+                attention_mask=attention_mask,
+                token_type_ids=token_type_ids,
+                position_ids=position_ids,
+                head_mask=head_mask,
+                inputs_embeds=inputs_embeds,
+                labels=labels,
+                output_attentions=output_attentions,
+                output_hidden_states=output_hidden_states,
+                return_dict=return_dict,
+                mlm_input_ids=mlm_input_ids,
+                mlm_labels=mlm_labels,
+            )
+
+
+
+class ZiBertForCL(BigBirdPreTrainedModel):
+    _keys_to_ignore_on_load_missing = [r"position_ids"]
+
+    def __init__(self, config, *model_args, **model_kargs):
+        super().__init__(config)
+        self.model_args = model_kargs["model_args"]
+        self.bert = BigBirdModel(config, add_pooling_layer=False)
+        
+        ######################################################################
+        
+        for param in self.bert.parameters():
+            param.requires_grad = False
+        
+        self.pre_seq_len = self.model_args.pre_seq_len
+        self.n_layer = config.num_hidden_layers
+        self.n_head = config.num_attention_heads
+        self.n_embd = config.hidden_size // config.num_attention_heads
+
+        self.prefix_tokens = torch.arange(self.pre_seq_len).long()
+        self.prefix_encoder = PrefixEncoder(config, self.model_args)
+        self.dropout = torch.nn.Dropout(config.hidden_dropout_prob)
+        
+        # compute the number of total parameters and tunable parameters
+        total_param = sum(p.numel() for p in self.parameters())
+        trainable_param = sum(p.numel() for p in self.parameters() if p.requires_grad)
+        print('total param is {}, trainable param is {}'.format(total_param, trainable_param))
+        ######################################################################
+        if self.model_args.do_mlm:
+            self.lm_head = BigBirdLMPredictionHead(config)
+
+        cl_init(self, config)
+        
+    ##########################################################################
+    def get_prompt(self, batch_size):
+        prefix_tokens = self.prefix_tokens.unsqueeze(0).expand(batch_size, -1).to(self.bert.device)
+        past_key_values = self.prefix_encoder(prefix_tokens)
+        # bsz, seqlen, _ = past_key_values.shape
+        past_key_values = past_key_values.view(
+            batch_size,
+            self.pre_seq_len,
+            self.n_layer * 2, 
+            self.n_head,
+            self.n_embd
+        )
+        past_key_values = self.dropout(past_key_values)
+        past_key_values = past_key_values.permute([2, 0, 3, 1, 4]).split(2)
+        return past_key_values
+    ##########################################################################
+
+    def forward(self,
+        input_ids=None,
+        attention_mask=None,
+        token_type_ids=None,
+        position_ids=None,
+        head_mask=None,
+        inputs_embeds=None,
+        labels=None,
+        output_attentions=None,
+        output_hidden_states=None,
+        return_dict=None,
+        sent_emb=False,
+        mlm_input_ids=None,
+        mlm_labels=None,
+    ):
+        if sent_emb:
+            return sentemb_forward(self, self.bert,
+                input_ids=input_ids,
+                attention_mask=attention_mask,
+                token_type_ids=token_type_ids,
+                position_ids=position_ids,
+                head_mask=head_mask,
+                inputs_embeds=inputs_embeds,
+                labels=labels,
+                output_attentions=output_attentions,
+                output_hidden_states=output_hidden_states,
+                return_dict=return_dict,
+            )
+        else:
+            return cl_forward(self, self.bert,
                 input_ids=input_ids,
                 attention_mask=attention_mask,
                 token_type_ids=token_type_ids,
