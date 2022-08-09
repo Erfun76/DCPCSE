@@ -3,3 +3,5 @@
 !/SentEval/data/downstream/download.sh
 /data
 /env
+/wandb
+/models/*

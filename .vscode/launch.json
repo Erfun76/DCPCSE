@@ -1,0 +1,48 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "args": [
+                "--model_name_or_path",
+                "./models/zibert384",
+                "--train_file",
+                "./data/dump.txt",
+                "--output_dir",
+                "result/simcse-zibert384-test",
+                "--overwrite_output_dir",
+                "--num_train_epochs",
+                "8",
+                "--save_steps",
+                "1024",
+                "--per_device_train_batch_size",
+                "256",
+                "--learning_rate",
+                "3e-2",
+                "--max_seq_length",
+                "32",
+                "--evaluation_strategy",
+                "no",
+                "--eval_steps",
+                "500",
+                "--pooler_type",
+                "cls",
+                "--mlp_only_train",
+                "--pre_seq_len",
+                "16",
+                "--temp",
+                "0.05",
+                "--do_train",
+                "--fp16",
+            ],
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "1"
+            },
+            "justMyCode": true
+        }
+    ]
+}

@@ -98,7 +98,6 @@ class Pooler(nn.Module):
         last_hidden = outputs.last_hidden_state
         pooler_output = outputs.pooler_output
         hidden_states = outputs.hidden_states
-
         if self.pooler_type in ['cls_before_pooler', 'cls']:
             return last_hidden[:, 0]
         elif self.pooler_type == "avg":
@@ -154,14 +153,14 @@ def cl_forward(cls,
     mlm_outputs = None
     # Flatten input for encoding
     input_ids = input_ids.view((-1, input_ids.size(-1))) # (bs * num_sent, len)
-    attention_mask = attention_mask.view((-1, attention_mask.size(-1))) # (bs * num_sent len)
+    attention_mask_no_prefix = attention_mask.view((-1, attention_mask.size(-1))) # (bs * num_sent len)
     if token_type_ids is not None:
         token_type_ids = token_type_ids.view((-1, token_type_ids.size(-1))) # (bs * num_sent, len)
         
     ##########################################################################
     past_key_values = cls.get_prompt(batch_size=input_ids.shape[0])
-    prefix_attention_mask = torch.ones(input_ids.shape[0], cls.pre_seq_len).to(cls.device)
-    attention_mask = torch.cat((prefix_attention_mask, attention_mask), dim=1)
+    prefix_attention_mask = torch.ones(input_ids.shape[0], cls.pre_seq_len).to("cuda")
+    attention_mask = torch.cat((prefix_attention_mask, attention_mask_no_prefix), dim=1)
     ##########################################################################
 
     # Get raw embeddings
@@ -177,7 +176,7 @@ def cl_forward(cls,
         return_dict=True,
         past_key_values=past_key_values, # new added
     )
-    
+
     # MLM auxiliary objective
     if mlm_input_ids is not None:
         mlm_input_ids = mlm_input_ids.view((-1, mlm_input_ids.size(-1)))
@@ -195,7 +194,7 @@ def cl_forward(cls,
         )
 
     # Pooling
-    pooler_output = cls.pooler(attention_mask, outputs) # 这里attention mask需要修改
+    pooler_output = cls.pooler(attention_mask_no_prefix, outputs) # 这里attention mask需要修改
     pooler_output = pooler_output.view((batch_size, num_sent, pooler_output.size(-1))) # (bs, num_sent, hidden)
 
     # If using "cls", we add an extra MLP layer
@@ -240,7 +239,7 @@ def cl_forward(cls,
         z1_z3_cos = cls.sim(z1.unsqueeze(1), z3.unsqueeze(0))
         cos_sim = torch.cat([cos_sim, z1_z3_cos], 1)
 
-    labels = torch.arange(cos_sim.size(0)).long().to(cls.device)
+    labels = torch.arange(cos_sim.size(0)).long().to("cuda")
     loss_fct = nn.CrossEntropyLoss()
 
     # Calculate loss with hard negatives
@@ -249,7 +248,7 @@ def cl_forward(cls,
         z3_weight = cls.model_args.hard_negative_weight
         weights = torch.tensor(
             [[0.0] * (cos_sim.size(-1) - z1_z3_cos.size(-1)) + [0.0] * i + [z3_weight] + [0.0] * (z1_z3_cos.size(-1) - i - 1) for i in range(z1_z3_cos.size(-1))]
-        ).to(cls.device)
+        ).to("cuda")
         cos_sim = cos_sim + weights
 
     loss = loss_fct(cos_sim, labels)
@@ -519,7 +518,6 @@ class ZiBertForCL(BigBirdPreTrainedModel):
         super().__init__(config)
         self.model_args = model_kargs["model_args"]
         self.bert = BigBirdModel(config, add_pooling_layer=False)
-        
         ######################################################################
         
         for param in self.bert.parameters():
@@ -541,9 +539,9 @@ class ZiBertForCL(BigBirdPreTrainedModel):
         ######################################################################
         if self.model_args.do_mlm:
             self.lm_head = BigBirdLMPredictionHead(config)
-
+    
         cl_init(self, config)
-        
+
     ##########################################################################
     def get_prompt(self, batch_size):
         prefix_tokens = self.prefix_tokens.unsqueeze(0).expand(batch_size, -1).to(self.bert.device)
